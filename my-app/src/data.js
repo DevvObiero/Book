@@ -30,3 +30,5 @@
     "price": "$15.00"
   }
 ]
+
+export default Data;

@@ -38,5 +38,35 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #fbfbfb;
+}
+
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px;
+  max-width: 220px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.book-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color:white
+}
+
+.book-author {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color:white;
+}
+
+.book-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c7a7b;
 }

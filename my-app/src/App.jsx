@@ -1,24 +1,29 @@
 import './App.css'
 import Book from './Book.jsx'
-import Data from './data.js'
+import  Data  from './data.js';
 
 
 function App() {
 
-
-  const Details = Data.map((item) => {
-    return
+const Details = Data.map((item) => { 
+  return (
+    
     <Book
-      key={item.id}
-      title={item.title}
+      name={item.title}
       author={item.author}
       price={item.price}
-    
+      key={item.id}  
     />
-  })
+  )
+})
+
+
+
+
+
   return (
     <>
-   <Book/>
+      {Details}
     </>
   )
 }

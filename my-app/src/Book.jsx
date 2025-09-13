@@ -1,10 +1,12 @@
-export default function Book() { 
+export default function Book(props) { 
 
     return (
-        <div>
-            <h1>Book Component</h1>
-            <p>This is a simple book component.</p>
-        </div>
+         <div className="book-card">
+      <h2 className="book-title">{props.title}</h2>
+      <p className="book-author">By {props.author}</p>
+      <p className="book-price">{props.price}</p>
+    </div>
+
     )
 
 }
