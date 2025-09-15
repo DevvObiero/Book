@@ -22,7 +22,7 @@ const Details = Data.map((item) => {
 
   return (
     <>
-      {/* {Details} */}
+      {Details}
     </>
   )
 }
